@@ -6,6 +6,7 @@
     - 기존의 유해 야생동물 피해 예방시설의 한계 극복하고 유해 야생동물 퇴치 및 농작물 관리 시스템을 도입하여 농민들에게 안전성과 편리성을 제공
 
 
+
 ## 2. 프로젝트 개요 :
 
     ### 주요 기능
@@ -21,17 +22,20 @@
         - 웹페이지와 연동되어 원격 조종과 실시간 스트리밍이 가능하다.
 
     ### 팀원 역할
-
+![화면 캡처 2024-06-21 181650](https://github.com/Baby-Blowfish/KIM1H1J-Harmful-Animal-Prevention-Robot-System/assets/168509536/7104cf73-2412-4b18-9678-b0a086e9d129)
 
     ### 기술 스택
-    
+    ![화면 캡처 2024-06-21 181807](https://github.com/Baby-Blowfish/KIM1H1J-Harmful-Animal-Prevention-Robot-System/assets/168509536/40894090-1dd8-4a88-83ac-a25d19b041c8)
 
+
+    
 ## 3. 프로젝트 내 역할 : 펌웨어 개발/ 임베디드 개발
     - 프로젝트 PM
     - 2개의 3-Axis manipulator 제어를 통한 꺽기 및 뒤집 기 동작 알고리즘 개발
     - PIR 센서, 열화상 카메라, Web Cam으로 얻은 영상정보를 OpenCV로 처리하여 객체 판단 알고리즘 개발
     - Jetson Nano와 OpenCR 간의 Serial 통신으로 동작 제어 알고리즘 개발
     - 다중 Thread 기반 Web Soket 방식으로 Web Server를 구현하여 로봇의 원격제어 UI 및 실시간 영상 스트리밍 개발
+
 
 
 ## 4. 성과
