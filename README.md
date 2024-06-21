@@ -47,5 +47,5 @@
 
 
 ## 5. 영상
-    [YouTube 동영상 보기](https://www.youtube.com/watch?v=laRRR3mp4Tw)
+    https://youtu.be/laRRR3mp4Tw?si=Fzb0Fjp0AJhmJx73
                    
