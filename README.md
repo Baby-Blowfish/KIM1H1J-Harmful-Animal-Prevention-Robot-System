@@ -27,6 +27,10 @@
     ### 기술 스택
 ![화면 캡처 2024-06-21 181807](https://github.com/Baby-Blowfish/KIM1H1J-Harmful-Animal-Prevention-Robot-System/assets/168509536/4c31d8e8-fc8d-4bbf-b8d9-a3963ff4e3cf)
 
+    ### 수행 일정
+![화면 캡처 2024-06-21 184916](https://github.com/Baby-Blowfish/KIM1H1J-Harmful-Animal-Prevention-Robot-System/assets/168509536/12328e84-e24b-4bfa-a6d7-d6213a84994c)
+
+
     
 ## 3. 프로젝트 내 역할 : 펌웨어 개발/ 임베디드 개발
     - 프로젝트 PM
