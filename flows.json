@@ -1,0 +1,618 @@
+[
+    {
+        "id": "31774a526504e1e6",
+        "type": "tab",
+        "label": "플로우 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4c20f5837bdfd235",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Arial Black,Arial Black,Gadget,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Arial Black,Arial Black,Gadget,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 80,
+                "sy": 50,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "215a2f64d1e16787",
+        "type": "ui_tab",
+        "name": "Hyo jin's Farm",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "38da4a6730494f3a",
+        "type": "ui_group",
+        "name": "Robot Control",
+        "tab": "215a2f64d1e16787",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "87ebd134e56fb3f0",
+        "type": "ui_group",
+        "name": "Robot Camera Streem",
+        "tab": "215a2f64d1e16787",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "59d113d793693536",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "21f62cd62f314803",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "12239fcd2c86cc13",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8b3066728c282b38",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "eeb0b282c6fdde67",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "98287c4cc3c9cbcc",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "da928956606cee04",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7ac75a7aa8ebd3c5",
+        "type": "ui_spacer",
+        "z": "31774a526504e1e6",
+        "name": "spacer",
+        "group": "38da4a6730494f3a",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ece0d46e88291c49",
+        "type": "tcp out",
+        "z": "31774a526504e1e6",
+        "name": "jet으로 출력",
+        "host": "",
+        "port": "",
+        "beserver": "reply",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 1130,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d2a03c716d9c4aee",
+        "type": "ui_button",
+        "z": "31774a526504e1e6",
+        "name": "",
+        "group": "38da4a6730494f3a",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "passthru": false,
+        "label": "Forward",
+        "tooltip": "",
+        "color": "blue",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "play_circle_outline",
+        "payload": "n",
+        "payloadType": "str",
+        "topic": "Forward",
+        "topicType": "str",
+        "x": 800,
+        "y": 180,
+        "wires": [
+            [
+                "8968e57ae3f771c5",
+                "ece0d46e88291c49",
+                "d68221c9da512789"
+            ]
+        ]
+    },
+    {
+        "id": "8968e57ae3f771c5",
+        "type": "ui_text",
+        "z": "31774a526504e1e6",
+        "group": "38da4a6730494f3a",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Robot Action State  : ",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "127d1440292a806f",
+        "type": "tcp in",
+        "z": "31774a526504e1e6",
+        "name": "jet 에서 입력",
+        "server": "server",
+        "host": "",
+        "port": "50000",
+        "datamode": "single",
+        "datatype": "buffer",
+        "newline": "confirm",
+        "topic": "",
+        "trim": false,
+        "base64": false,
+        "tls": "",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "5da6208721ce964a",
+                "8bcf93cf194f33af"
+            ]
+        ]
+    },
+    {
+        "id": "5da6208721ce964a",
+        "type": "debug",
+        "z": "31774a526504e1e6",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "51ae57335ef8f7b7",
+        "type": "ui_button",
+        "z": "31774a526504e1e6",
+        "name": "",
+        "group": "38da4a6730494f3a",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "passthru": false,
+        "label": "Stop",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "pause_circle_outline",
+        "payload": "s",
+        "payloadType": "str",
+        "topic": "Stop",
+        "topicType": "str",
+        "x": 790,
+        "y": 300,
+        "wires": [
+            [
+                "8968e57ae3f771c5",
+                "d68221c9da512789",
+                "ece0d46e88291c49"
+            ]
+        ]
+    },
+    {
+        "id": "d68221c9da512789",
+        "type": "debug",
+        "z": "31774a526504e1e6",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f45117440db47ec7",
+        "type": "tcp out",
+        "z": "31774a526504e1e6",
+        "name": "jet으로 출력",
+        "host": "",
+        "port": "",
+        "beserver": "reply",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 1130,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9094f690ffcd7ae1",
+        "type": "ui_button",
+        "z": "31774a526504e1e6",
+        "name": "",
+        "group": "38da4a6730494f3a",
+        "order": 7,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Front",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "arrow_upwards",
+        "payload": "f",
+        "payloadType": "str",
+        "topic": "Front",
+        "topicType": "str",
+        "x": 790,
+        "y": 380,
+        "wires": [
+            [
+                "8803dff8da19b412",
+                "f45117440db47ec7",
+                "590d46ed275f17c4"
+            ]
+        ]
+    },
+    {
+        "id": "8803dff8da19b412",
+        "type": "ui_text",
+        "z": "31774a526504e1e6",
+        "group": "38da4a6730494f3a",
+        "order": 17,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Camera Action State  : ",
+        "format": "{{msg.topic}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1160,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "590d46ed275f17c4",
+        "type": "debug",
+        "z": "31774a526504e1e6",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a6cfae3fcd2849ee",
+        "type": "ui_button",
+        "z": "31774a526504e1e6",
+        "name": "",
+        "group": "38da4a6730494f3a",
+        "order": 12,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Left",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "arrow_back",
+        "payload": "l",
+        "payloadType": "str",
+        "topic": "Left",
+        "topicType": "str",
+        "x": 790,
+        "y": 460,
+        "wires": [
+            [
+                "f45117440db47ec7",
+                "8803dff8da19b412",
+                "590d46ed275f17c4"
+            ]
+        ]
+    },
+    {
+        "id": "8a1ab5559e77b01c",
+        "type": "ui_button",
+        "z": "31774a526504e1e6",
+        "name": "",
+        "group": "38da4a6730494f3a",
+        "order": 13,
+        "width": 2,
+        "height": 2,
+        "passthru": false,
+        "label": "Right",
+        "tooltip": "",
+        "color": "black",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "arrow_forward",
+        "payload": "r",
+        "payloadType": "str",
+        "topic": "Rtight",
+        "topicType": "str",
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "f45117440db47ec7",
+                "8803dff8da19b412",
+                "590d46ed275f17c4"
+            ]
+        ]
+    },
+    {
+        "id": "64c6755476d83478",
+        "type": "ui_text",
+        "z": "31774a526504e1e6",
+        "group": "38da4a6730494f3a",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Robot Action Button",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 840,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "6c4aa944f6f86be7",
+        "type": "ui_text",
+        "z": "31774a526504e1e6",
+        "group": "38da4a6730494f3a",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Camera Action Button",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1160,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f42154dc88afbac5",
+        "type": "comment",
+        "z": "31774a526504e1e6",
+        "name": "jetson to node_red tcp/ip",
+        "info": "젯슨 : 클라이언트\n노드레드 : 서버\n포트 : 60000\n\n기능 : 젯슨에서 보낸 데이터를 노드레드의 구글\n       계정과 연결된 cannuat로부터 다른메일로\n       데이터 전송",
+        "x": 210,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "57c45f5add848958",
+        "type": "comment",
+        "z": "31774a526504e1e6",
+        "name": "Robot control dashboard",
+        "info": "만들어진 웹페이지의 버튼을 통해 로봇을 조종함\n기능 : forward : n\n       stop : s\n       front : f\n       left : l\n       back : b\n       right : r\n        을 젯슨나노로 전송함",
+        "x": 850,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cf928d0abb5fde8b",
+        "type": "ui_template",
+        "z": "31774a526504e1e6",
+        "group": "87ebd134e56fb3f0",
+        "name": "",
+        "order": 1,
+        "width": 6,
+        "height": 10,
+        "format": "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title></title>\n</head>\n<body>\n    <h1>Web Cam</h1>\n    <img src={{msg.payload}}>\n\n\n\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 500,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8bcf93cf194f33af",
+        "type": "base64",
+        "z": "31774a526504e1e6",
+        "name": "",
+        "action": "",
+        "property": "payload",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "da19dd4f556f3cbc"
+            ]
+        ]
+    },
+    {
+        "id": "da19dd4f556f3cbc",
+        "type": "function",
+        "z": "31774a526504e1e6",
+        "name": "function 1",
+        "func": "msg.payload = \"data:image/png;base64,\" + msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "cf928d0abb5fde8b"
+            ]
+        ]
+    }
+]
